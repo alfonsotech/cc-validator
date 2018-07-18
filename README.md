@@ -1,11 +1,13 @@
 # cc-validator
 A credit card validator using the Luhn algorithm in Node.js with testing in Mocha/Chai.
 
+
 #### How To Run Tests
 - Clone this repository onto local machine (copy the clone link and run ``` git clone <clone url>```).
 - If Mocha is not installed on local machine, run ```npm install -g mocha``` to install Mocha globally on your machine. You can check to see if it inistalled successfully by running ```which moca``` and you should get a path to mocha on you machine: e.g., ```./node_modules/.bin/mocha```.
 - Run ```npm i``` to install dependencies.
 - Run ```npm test``` to run tests in the terminal.
+
 
 #### Technologies Used
 - [node.js](https://nodejs.org/)
@@ -14,10 +16,11 @@ A credit card validator using the Luhn algorithm in Node.js with testing in Moch
 
 - [chai](http://www.chaijs.com/)
 
+
 #### Acknowlegements
 I refered to this tutorial to refresh my memory: [JavaScript — Unit Testing using Mocha and Chai](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
 
-The [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+I used the javascript version of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) provided on the Wikepedia page sent with the instructions.
 
 
 ##### Instructions Provided For Test
