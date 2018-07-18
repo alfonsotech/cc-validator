@@ -1,5 +1,5 @@
 # cc-validator
-A credit card validator using the Luhn algorithm in Node.js with testing in Mocha/Chai.
+A credit card validator using the Luhn algorithm in Node.js with testing in Mocha/Chai built in about 3 hours.
 
 
 #### How To Run Tests
@@ -23,6 +23,7 @@ I refered to this tutorial to refresh my memory: [JavaScript — Unit Testin
 I used the javascript version of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) provided on the Wikepedia page sent with the instructions.
 
 
+----
 ##### Instructions Provided For Test
 
 Using the programming language that you feel most proficient with and following TDD, you will implement the validation algorithm for credit cards. For this, please send us a Github repository.
