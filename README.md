@@ -47,3 +47,6 @@ More details about the Luhn algorithm: https://en.wikipedia.org/wiki/Luhn_algori
 
 
 Please solve the exercise and send us the Github link within 72hrs.​
+
+##### Acknowlegements
+I refered to this tutorial to refresh my memory: [JavaScript — Unit Testing using Mocha and Chai](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)

@@ -1,7 +1,7 @@
-export default class validator {
-  
-  sayHello() {
-    return "Hello!"
-  }
-
+var validator = {
+	sayHello: function() {
+		return "Hello!";
+	}
 }
+
+  module.exports = validator;
