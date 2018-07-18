@@ -22,6 +22,28 @@ I refered to this tutorial to refresh my memory: [JavaScript — Unit Testin
 
 I used the javascript version of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm) provided on the Wikepedia page sent with the instructions.
 
+```
+function validateLuhn(value) {
+    var nCheck = 0, nDigit = 0, bEven = false;
+    value = value.replace(/\D/g, '');
+
+    for (var n = value.length - 1; n >= 0; n--) {
+        var cDigit = value.charAt(n);
+        nDigit = parseInt(cDigit, 10);
+
+        if (bEven) {
+            if ((nDigit *= 2) > 9) {
+                nDigit -= 9;
+            }
+        }
+
+        nCheck += nDigit;
+        bEven = !bEven;
+    }
+
+    return (nCheck % 10) === 0;
+}
+```
 
 ----
 ##### Instructions Provided For Test
@@ -64,26 +86,3 @@ More details about the Luhn algorithm: https://en.wikipedia.org/wiki/Luhn_algori
 
 
 Please solve the exercise and send us the Github link within 72hrs.​
-
-```
-function validateLuhn(value) {
-    var nCheck = 0, nDigit = 0, bEven = false;
-    value = value.replace(/\D/g, '');
-
-    for (var n = value.length - 1; n >= 0; n--) {
-        var cDigit = value.charAt(n);
-        nDigit = parseInt(cDigit, 10);
-
-        if (bEven) {
-            if ((nDigit *= 2) > 9) {
-                nDigit -= 9;
-            }
-        }
-
-        nCheck += nDigit;
-        bEven = !bEven;
-    }
-
-    return (nCheck % 10) === 0;
-}
-```
