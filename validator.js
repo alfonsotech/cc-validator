@@ -2,6 +2,7 @@ var validator = {
 	sayHello: function() {
 		return "Hello!";
 	},
+	//Source of the Luhn algorithm: https://en.wikipedia.org/wiki/Luhn_algorithm
 	validateCreditCard: function(value) {
 		var nCheck = 0, nDigit = 0, bEven = false;
     value = value.replace(/\D/g, '');

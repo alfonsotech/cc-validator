@@ -34,7 +34,7 @@ describe('Validates credit card number', function () {
     });
 
  //Fail to validate credit card number with non-integer characters
- it('should fail to validate otehrwise valid credit card number that contains non-integer charcters', function () {
+ it('should fail to validate otherwise valid credit card number that contains non-integer charcters', function () {
         expect(validator.validateCreditCard('40128*&8888818Rr')).to.equal(false);
     });
 
@@ -44,21 +44,3 @@ describe('Validates credit card number', function () {
     });
  
 });
-
-
- 
-
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
