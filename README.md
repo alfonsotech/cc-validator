@@ -12,7 +12,7 @@ A credit card validator algorithm with tests in Node.js Mocha/Chai.
 
 - [mocha](https://mochajs.org/)
 
-- [chai]http://www.chaijs.com/)
+- [chai](http://www.chaijs.com/)
 
 #### Acknowlegements
 I refered to this tutorial to refresh my memory: [JavaScript — Unit Testing using Mocha and Chai](https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71)
