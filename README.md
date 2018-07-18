@@ -3,8 +3,8 @@ A credit card validator using the Luhn algorithm in Node.js with testing in Moch
 
 
 #### How To Run Tests
-- Clone this repository onto local machine (copy the clone link and run ``` git clone <clone url>```).
-- If Mocha is not installed on local machine, run ```npm install -g mocha``` to install Mocha globally on your machine. You can check to see if it inistalled successfully by running ```which moca``` and you should get a path to mocha on you machine: e.g., ```./node_modules/.bin/mocha```.
+- Clone this repository onto local machine (i.e., copy the clone link and run ``` git clone <clone url>```).
+- If Mocha is not installed on local machine, run ```npm install -g mocha``` to install Mocha globally on your machine. You can check to see mocha is correctly inistalled on your machine by running ```which mocha``` and you should get a path to mocha on you machine: e.g., ```./node_modules/.bin/mocha```.
 - Run ```npm i``` to install dependencies.
 - Run ```npm test``` to run tests in the terminal.
 
