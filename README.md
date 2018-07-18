@@ -1,5 +1,5 @@
 # cc-validator
-A credit card validator algorithm with tests in Node.js Mocha/Chai.
+A credit card validator using the Luhn algorithm in Node.js with testing in Mocha/Chai.
 
 #### How To Run Tests
 - Clone this repository onto local machine (copy the clone link and run ``` git clone <clone url>```).
