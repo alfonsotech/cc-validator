@@ -15,10 +15,12 @@ describe.skip('Basic Mocha String Test', function () {
     });
 });
 
+
 //Basic Mocha/Chai set-up with external file
 describe.skip('Say Hello', function () {
+    
  it('should say Hello!', function () {
-        expect(validator.sayHello()).to.equal("Hello!")
+        expect(validator.sayHello()).to.equal("Hello!");
     });
  
 });
@@ -58,7 +60,7 @@ describe.skip('Original Luhn algorithm validation', function () {
 describe('Double values', function () {
 
     it('should output an array', function () {
-        expect(validator.doubleValues('4012888888881881')).to.be.an('array')
+        expect(validator.doubleValues('4012888888881881')).to.be.an('array');
     });
 
 
@@ -67,6 +69,7 @@ describe('Double values', function () {
     });
 
 });
+
 
 //Sum All Digits
 describe('Sums all integers in array', function () {
@@ -78,7 +81,6 @@ describe('Sums all integers in array', function () {
 });
 
 
-
 //Validate Credit Card
 describe('Validates credit card number', function () {
 
@@ -86,17 +88,16 @@ describe('Validates credit card number', function () {
  it('should validate valid credit card number', function () {
         expect(validator.validateCreditCard('5555')).to.equal(true);
     });
-  it('should validate valid credit card number 2', function () {
+ it('should validate valid credit card number 2', function () {
         expect(validator.validateCreditCardOriginal('4012888888881881')).to.equal(true);
     });
-
 
  //Fail to validate false credit card test
  it('should fail to validate incorrect number', function () {
         expect(validator.validateCreditCard('4012888888881882')).to.equal(false);
     });
 
- //Fail to validate numbe containing non-integers
+  //Fail to validate numbe containing non-integers
   it('should fail to validate number with non-integers', function () {
         expect(validator.validateCreditCard('4012Rr888&+81881')).to.equal(false);
     });
